@@ -14,6 +14,7 @@
 		4332964D220811D400F4D4C1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4332964B220811D400F4D4C1 /* LaunchScreen.storyboard */; };
 		43329658220811D400F4D4C1 /* sillyTimerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43329657220811D400F4D4C1 /* sillyTimerTests.swift */; };
 		43329663220811D400F4D4C1 /* sillyTimerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43329662220811D400F4D4C1 /* sillyTimerUITests.swift */; };
+		437429652208940E0049DC84 /* TimerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 437429642208940E0049DC84 /* TimerViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		4332965E220811D400F4D4C1 /* sillyTimerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = sillyTimerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		43329662220811D400F4D4C1 /* sillyTimerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sillyTimerUITests.swift; sourceTree = "<group>"; };
 		43329664220811D400F4D4C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		437429642208940E0049DC84 /* TimerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				43329649220811D400F4D4C1 /* Assets.xcassets */,
 				4332964B220811D400F4D4C1 /* LaunchScreen.storyboard */,
 				4332964E220811D400F4D4C1 /* Info.plist */,
+				437429642208940E0049DC84 /* TimerViewController.swift */,
 			);
 			path = sillyTimer;
 			sourceTree = "<group>";
@@ -257,6 +260,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				43329645220811D300F4D4C1 /* ViewController.swift in Sources */,
+				437429652208940E0049DC84 /* TimerViewController.swift in Sources */,
 				43329643220811D300F4D4C1 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
